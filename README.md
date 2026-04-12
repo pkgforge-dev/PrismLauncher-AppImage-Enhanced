@@ -10,7 +10,7 @@
   <img src="https://raw.githubusercontent.com/PrismLauncher/PrismLauncher/refs/heads/develop/program_info/org.prismlauncher.PrismLauncher.svg" width="128" />
 </p>
 
-This AppImage would never have existed without the enormous effort of [@Samueru-sama](https://github.com/Samueru-sama) **This AppImages intercepts the `execve` calls to the user's `java` to run with sharun which allows using a portable dynamic linker instead. First AppImage with this feature [QuantumLauncher](https://github.com/pkgforge-dev/QuantumLauncher-AppImage-Enhanced) which is a Minecraft launcher too.**
+This AppImage would never have existed without the enormous effort of [@Samueru-sama](https://github.com/Samueru-sama) **This AppImage intercepts the `execve` calls to the user's `java` to run with sharun which allows using a portable dynamic linker instead. First AppImage with this feature [QuantumLauncher](https://github.com/pkgforge-dev/QuantumLauncher-AppImage-Enhanced) which is a Minecraft launcher too.**
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
