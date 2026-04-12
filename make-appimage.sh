@@ -18,6 +18,9 @@ export DEPLOY_VULKAN=1
 quick-sharun /usr/bin/prismlauncher /usr/bin/env
 
 # Additional changes can be done in between here
+# this app has problems with other locales breaking physics
+echo 'LC_ALL=C.UTF-8' >> ./AppDir/.env
+
 cc -shared -fPIC -O2 -o ./AppDir/lib/execve-sharun-hack.so execve-sharun-hack.c -ldl
 echo 'execve-sharun-hack.so' >> ./AppDir/.preload
 echo 'export ANYLINUX_EXECVE_WRAP_PATHS="$DATADIR"' >> ./AppDir/bin/execve-wrap-path.hook
