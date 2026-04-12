@@ -9,6 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     gamemode      \
     glfw          \
+    jdk17-openjdk \
     openal
     #prismlauncher
 
