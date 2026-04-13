@@ -14,6 +14,7 @@ pacman -Syu --noconfirm \
     openal        \
     prismlauncher \
     qt6ct         \
+    sdl3          \
     xorg-xrandr
 
 echo "Installing debloated packages..."
