@@ -3,7 +3,7 @@
 set -eu
 
 ARCH=$(uname -m)
-VERSION=$(pacman -Q prismlauncher | awk '{print $2; exit}') # example command to get version of application here
+VERSION=$(pacman -Q prismlauncher | awk '{print $2; exit}')
 export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
@@ -18,7 +18,6 @@ export DEPLOY_PULSE=1
 # Deploy dependencies
 quick-sharun /usr/bin/prismlauncher /usr/lib/libglfw.so* /usr/lib/libopenal.so* /usr/lib/libSDL3.so* /usr/bin/env
 
-# Additional changes can be done in between here
 # this app has problems with other locales breaking physics
 echo 'LC_ALL=C.UTF-8' >> ./AppDir/.env
 
