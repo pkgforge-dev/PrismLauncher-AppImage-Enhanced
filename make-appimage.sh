@@ -10,8 +10,6 @@ export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.prismlauncher.PrismLauncher.svg
 export DESKTOP=/usr/share/applications/org.prismlauncher.PrismLauncher.desktop
-export DEPLOY_QT=1
-export QT_DIR=qt6
 export DEPLOY_VULKAN=1
 export DEPLOY_PULSE=1
 
